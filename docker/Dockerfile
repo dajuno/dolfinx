@@ -248,6 +248,7 @@ RUN apt-get -qq update && \
     --FOPTFLAGS="${PETSC_SLEPC_OPTFLAGS}" \
     --with-64-bit-indices=no \
     --with-debugging=${PETSC_SLEPC_DEBUGGING} \
+    --with-hdf5 \
     --with-fortran-bindings=no \
     --with-shared-libraries \
     --download-hypre \
